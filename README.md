@@ -1,2 +1,4 @@
 # Resume-Parser
 Building a Resume Parser Using NLP and Machine Learning
+
+Recruiters no longer spend a significant amount of time manually screening resumes. Thanks to resume parsers, sorting through thousands of applicants' applications for a job is no longer a difficult chore. In order to intelligently scan through hundreds of resumes and choose the best applicant for a job interview, resume parsers employ machine learning technologies. For this project, I created a natural language processing (NLP) algorithm that analyses a résumé and searches for the terms (skills) stated in the job description. It will make use of the NLP library Spacy's Phrase Matcher function, which matches words and phrases in resume papers. Following that, the resume parser counts the instances of words (skills) under several categories for each resume, assisting recruiters in shortlisting the best candidates for a position.
