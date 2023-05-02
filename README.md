@@ -1,4 +1,20 @@
-# Resume-Parser
-Building a Resume Parser Using NLP and Machine Learning
+# Resume Parser
+The Resume Parser is a Python-based project that extracts key information from a resume and outputs it in a structured format. The project leverages Natural Language Processing (NLP) techniques to identify and extract relevant information such as name, email, phone number, work experience, education, and skills. The extracted information can be used to populate a database or for further analysis.
 
-Recruiters no longer spend a significant amount of time manually screening resumes. Thanks to resume parsers, sorting through thousands of applicants' applications for a job is no longer a difficult chore. In order to intelligently scan through hundreds of resumes and choose the best applicant for a job interview, resume parsers employ machine learning technologies. For this project, I created a natural language processing (NLP) algorithm that analyses a résumé and searches for the terms (skills) stated in the job description. It will make use of the NLP library Spacy's Phrase Matcher function, which matches words and phrases in resume papers. Following that, the resume parser counts the instances of words (skills) under several categories for each resume, assisting recruiters in shortlisting the best candidates for a position.
+## Installation
+1. Clone the repository: `git clone https://github.com/charvijain12/Resume-Parser.git`
+
+2. Install the required dependencies: `pip install -r requirements.txt`
+
+## Usage
+1. Place the resume file in the `input` folder.
+
+2. Run the main.py script: `python main.py`
+
+3. The parsed information will be generated in a `JSON file` in the output folder.
+
+## Contributing
+Contributions to the Resume Parser project are welcome. If you would like to contribute, please open an issue or pull request on the GitHub repository.
+
+## License
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
